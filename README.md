@@ -1,0 +1,2 @@
+# Pokedex
+java trainee task
