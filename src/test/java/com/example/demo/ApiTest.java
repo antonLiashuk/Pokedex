@@ -42,9 +42,4 @@ public class ApiTest {
                 .content(toJson(pokemon)))
                 .andExpect(status().isOk());
     }
-
-    /*@Test
-    public void findByNameTest() {
-        mvc.perform(get("/api/pokemon/all"))
-    }*/
 }
