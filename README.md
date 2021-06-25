@@ -17,7 +17,7 @@ is an endpoint that returns us a Json representation of the list of the Pokemon 
 No additional arguments are needed.
 3. ``localhost:8080/api/pokemon/id/{id}`` GET http request does search in the database for the Pokemon object with the id value, as passed in the url path.
 4. ``localhost:8080/api/pokemon/name/{name}`` GET http request does search in the database for the Pokemon object with the name value, as passed in the url path.
-5. ``localhost:8080/api/pokemon/type/{type}`` GET http request does search in the database for the Pokemon object with the type value, as passed in the url path.
+5. ``localhost:8080/api/pokemon/type/{type}`` GET http request does search in the database for the all Pokemon objects with the same type value, as passed in the url path.
 6. ``localhost:8080/api/pokemon/delete/{id}`` DELETE http request, which deletes the Pokemon with the same value of id as passed in argument.
 7.  ``localhost:8080/api/pokemon/delete/all`` DELETE http request, which deletes all the Pokemons from the database.
 8.  ``localhost:8080/api/pokemon/edit/{id}`` endpoint that performs PUT http request, takes an id value in the path of the URL and also a boy of the new Pokemon object that we need to change, then updates the chosen Pokemon with the same id value as typed in the URL path, and change it to the Pokemon that we typed as a Json.
