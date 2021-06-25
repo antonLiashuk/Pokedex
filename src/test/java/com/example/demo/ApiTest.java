@@ -33,6 +33,7 @@ public class ApiTest {
     @MockBean
     PokemonService pokemonService;
 
+    /*save method test*/
     @Test
     public void saveTest() throws Exception {
         Pokemon pokemon = Pokemon.createPokemon();
